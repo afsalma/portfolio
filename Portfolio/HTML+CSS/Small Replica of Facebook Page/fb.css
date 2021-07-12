@@ -1,0 +1,152 @@
+﻿.header
+{
+    background:#3b5998;
+    width:100%;
+    height:85px;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    width: 50%;
+    padding-top: 32px;
+    float:left;
+}
+.logo a{
+    color:white;
+    font-size:35px;
+    font-weight:bold;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:170px;
+    float:left;
+}
+.login {
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+}
+.login-id {
+    margin-left: 115px;
+}
+.login-label {
+    color: #fff;
+    font-size: 11px;
+}
+.fa {
+    color: #9cb4d8;
+    font-size: 11px;
+}
+.submit-button{
+    background:#4267b2;
+    color:white;
+    height:20px;
+    border-color:#29487d;
+    margin-left:10px;
+    cursor:pointer;
+}
+.submit-button:hover{
+    background:darkblue;
+}
+.body{
+    background:linear-gradient(white,#D3D8E8);
+    width:100%;
+    height:500px;
+}
+.left-section{
+    width:50%;
+    float:left;
+}
+.about-fb {
+    margin-left: 170px;
+    font-weight:bold;
+    font-size:21px;
+}
+.fb-image {
+    margin-left: 270px;
+    margin-top:10px;
+}
+.right-section {
+    width: 50%;
+    float: left;  
+}
+.accnt-creation {
+    margin-left: 90px;
+}
+.quick-easy {
+    margin-top:-10px;
+    margin-left:95px;
+}
+.first-name {
+    margin-left: 95px;
+    height: 24px;
+    width: 195px;
+    border-radius: 3px;
+    font-size: 15px;
+    border-color: lightgrey;
+}
+.last-name {
+    margin-left: 10px;
+    height: 24px;
+    width: 195px;
+    border-radius: 3px;
+    font-size: 15px;
+    border-color: lightgrey;
+}
+.mobile-email {
+    margin-top: 10px;
+    margin-left: 95px;
+    height: 24px;
+    width: 410px;
+    border-radius: 3px;
+    font-size: 15px;
+    border-color: lightgrey;
+}
+.new-password {
+    margin-top: 10px;
+    margin-left: 95px;
+    height: 24px;
+    width: 410px;
+    border-radius: 3px;
+    font-size: 15px;
+    border-color: lightgrey;
+}
+.birthday {
+    margin-top: 20px;
+    margin-left: 95px;
+}
+.ddmmyy {
+    height: 20px;
+    width: 125px;
+    margin-top: -50px;
+    margin-left: 95px;
+    border-color: lightgrey;
+}
+.gender {
+    margin-top: 20px;
+    margin-left: 95px;
+}
+.f-classification {
+    margin-left: 95px;
+    margin-top: -80px;
+}
+.m-classification {
+    margin-left: 20px;
+    margin-top: -80px;
+}
+.no-classification {
+    margin-left: 20px;
+    margin-top: -80px;
+}
+.tac {
+    margin-top: 20px;
+    margin-left: 95px;
+}
+.signup {
+    height: 40px;
+    width: 150px;
+    background: green;
+    color: white;
+    margin-left: 95px;
+}
