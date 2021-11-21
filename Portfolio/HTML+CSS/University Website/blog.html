@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <!--adding click event to close bar-->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul >
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> 
+
+        <h1>Our Certifications & Online Programs for 2021</h1>
+    </section>
+
+            <!--Blog Page Content-->
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our Certifications & Online Programs for 2021</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Commodi numquam rerum, obcaecati aut hic ipsum debitis 
+                    corporis quas nulla facilis tempore ut temporibus, 
+                    dolorum, sint quaerat culpa omnis voluptatibus neque.</p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Suscipit natus similique 
+                    in quod eum deleniti possimus sint obcaecati 
+                    facere, tenetur voluptate excepturi tempora ea 
+                    laudantium officia accusamus vero quis quas 
+                    officiis. Aut tempora non iste vel iure, modi, 
+                    eius et dolor illum perferendis animi consectetur 
+                    fugiat fugit dolore alias, aliquam voluptate. 
+                    Nisi cupiditate deserunt impedit reiciendis ipsa 
+                    accusamus, modi laudantium est. Quod autem libero 
+                    fugit, nemo veniam possimus ut consequuntur, omnis id, 
+                    delectus ducimus eum at eos perspiciatis! Cupiditate, alias?</p>    
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Reiciendis neque optio, dolores 
+                    animi excepturi beatae, ipsam perferendis voluptatem 
+                    mollitia deserunt, officiis commodi repellat 
+                    laboriosam quod qui eos praesentium provident nemo 
+                    veritatis quas perspiciatis? Delectus, ipsa! Porro, 
+                    nisi? Cum aspernatur adipisci quo quae quidem vitae 
+                    quibusdam pariatur, eligendi, aliquid ipsa voluptates 
+                    veritatis quos neque facilis. In ullam quasi dolore 
+                    reprehenderit, amet eaque ducimus nihil consequuntur! 
+                    Ea debitis reprehenderit possimus, at praesentium, 
+                    quibusdam autem tempore atque magni quisquam eos 
+                    deleniti vel quae.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipisicing elit. Omnis soluta, incidunt voluptates 
+                    debitis voluptate perferendis error quaerat nam id 
+                    voluptas possimus ratione dolor tempore voluptatem 
+                    eius, quidem odit necessitatibus, impedit ab ea 
+                    accusantium non? Quod recusandae explicabo, ipsa illo 
+                    laudantium corporis, commodi, rerum magnam 
+                    quasi odio vero nemo. At, est.</p>
+
+                <div class="comment-box">
+                    
+                    <h3>Leave a Comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+
+                </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+
+                <div>
+                    <span>Business Analytics</span>
+                    <span>15</span>
+                </div>
+
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+            <!--Facilities-->
+
+   
+    
+            <!--Footer-->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Distinctio libero ratione, qui vel necessitatibus 
+             voluptatibus porro sint! Vel in natus <br> dolores 
+             suscipit, sequi ea repellat accusamus nam ex 
+             similique quas.</p>
+        
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+
+        <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+    <script>
+        var navLinks=document.getElementById("navLinks")
+
+        //Toggling Menus-Displaying and Hiding Menus
+        function showMenu (){
+            navLinks.style.right="0";
+        }
+        function hideMenu (){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
